@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Click : MonoBehaviour
 {
-    [SerializeField]
-    private LayerMask clickablesLayer;
+    public LayerMask clickablesLayer;
 
     public List<GameObject> selectedObjects;
 
